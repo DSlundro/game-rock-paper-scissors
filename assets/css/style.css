@@ -1,0 +1,69 @@
+/*#region               COMMON*/
+body{
+    background-color: rgb(69, 116, 143);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*#endregion*/
+
+/*#region               HEADER*/
+header{background-color: azure;}
+
+/*#endregion*/
+
+/*#region               SCORE*/
+h2{text-shadow: 2px 2px rgba(0, 255, 255, 0.37);}
+button{
+    background-color: rgb(46, 106, 141);
+    color: white;
+    border: 3px solid white;
+    padding: 5px 15px;
+}
+.score-board{
+    background-color: rgb(46, 106, 141);
+    width: 250px;
+    height: 100px;
+    border: 3px solid white;
+    position: relative;
+    font-size: 50px;
+}
+#players{
+    width: 100%;
+    position: absolute;
+}
+#user-label{
+    transform: translate(-50%, 0);
+}
+#computer-label{
+    transform: translate(50%, 0);
+}
+.box{
+    background-color: rgb(0, 217, 255);
+    padding: 2px 7px;
+    font-size: 14px;
+    border: 3px solid white;
+}
+
+
+/*#endregion*/
+
+/*#region               CHOICES*/
+img{
+    width: 70px;
+    aspect-ratio: 1/1;
+
+}
+.choice{
+    background-color: rgb(46, 106, 141);
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.choice:hover {
+    transform: scale(1.1);
+    border: 3px solid rgba(255, 255, 255, 0.425);
+}
+.choice:active{border: 3px solid white;}
+/*#endregion*/
